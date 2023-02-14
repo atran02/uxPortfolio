@@ -31,5 +31,16 @@ a {
   text-decoration: none;
 }
 h1{
-  font-weight: 600;
+  font-weight: 500;
+  color: var(--monkey1);
+}
+.regHead{
+  font-weight: 400;
+}
+
+hr{
+  background-color: var(--monkeyA1);
+  width: 5em;
+  height: 4px;
+  border-radius: 5em;
 }

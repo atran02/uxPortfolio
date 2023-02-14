@@ -12,18 +12,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Angelyne Tran | Portfolio</title>
+        <title>Angelyne Tran | UI/UX</title>
         <meta name="description" content="inspirational bananas" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/a_monkeyLogo.png" />
+        <link rel="icon" href="/images/a_monkeyLogo.png" />
       </Head>
       <main className={poppins.className}>
         <div className={styles.bgLight}>
+
          <div className={styles.bgM}>
-          <br/>
+          {/* <br/> */}
           <Image src={'/images/a_ded.png'} width={250} height={250}/>
+
           <span className={styles.hText}>
-            <h1>Hi, I’m Angelyne Tran!</h1>
+            <h1 className='regHead'>Hi, I’m Angelyne Tran!</h1>
             <br/>
             <p>I'm a creative, curious and empathetic 
               UI/UX designer based in Vancouver. I find 
@@ -31,13 +33,14 @@ export default function Home() {
               an intuitive and accessible experience.
             </p>
           </span>
+         </div>
 
-         </div>
-         <div className={styles.bgLight}>
-          <div>
-            <p>fnsjnv</p>
+          <div className={styles.itemCont}>
+            <h1>UI/UX Projects</h1>
+            <hr/>
+            <p>haii</p>
           </div>
-         </div>
+
         </div>
       </main>
     </>
