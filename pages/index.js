@@ -32,7 +32,7 @@ export default function Home() {
 
           {/* <Image src={'/images/c1.svg'} width={250} height={250}/> */}
 
-          <Image src={'/images/a_ded.png'} width={250} height={250}/>
+          <Image src={'/images/a_ded.png'} alt={"angelyne custom illustration"} width={250} height={250}/>
 
           <span className={styles.hText}>
             <h1 className='regHead'>Hi, I’m Angelyne Tran!</h1>
