@@ -35,7 +35,7 @@ export default function Home() {
           <Image src={'/images/a_ded.png'} alt={"angelyne custom illustration"} width={250} height={250}/>
 
           <span className={styles.hText}>
-            <h1 className='regHead'>Hi, I’m Angelyne Tran!</h1>
+            <h1 className='regHead'>Hi, I&apos;m Angelyne Tran!</h1>
             <br/>
             <p className={styles.pCont}>I'm a creative, curious and empathetic 
               UI/UX designer based in Vancouver. I find 
