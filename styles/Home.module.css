@@ -50,15 +50,33 @@
   background-color: var(--monkeyL);
 }
 .bgM{
-  background-image: url(/images/cloudL.png);
+  background-image: url(/images/cloudbg.svg);
+  background-color: var(--monkey3);
+  background-size: cover;
+  /* background-size: 100vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+/* .bgM2{
+  background-image: url(/images/cloudAsset2.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .hText{
   display: flex;
@@ -77,4 +95,94 @@
   justify-content: flex-start;
 
   padding: 2em;
+}
+
+.pCont{
+  width: 50%;
+}
+
+.footer{
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  flex: 1;
+  padding: 0.5em 0;
+  justify-content: center;
+  background-color: var(--monkey1);
+  color: #ffff;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.navItem1{
+  gap: 1.5em;
+  display: flex;
+}
+.navItem1 a:hover{
+  color: var(--monkeyA1);
+  border-bottom: 3px solid var(--monkeyA1);
+  transition:all .1s ease-in-out;
+}
+.navAlign{
+  display: flex;
+  gap: 1.5em;
+  display: flex;
+  align-items: center;
+}
+.mBtn{
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0);
+  border: 3px solid var(--monkeyA1);
+  border-radius: 1em;
+  color: var(--monkeyA1);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5em;
+  width: 6em;
+  transition:all .3s ease-in-out;
+
+}
+.mBtn:hover{
+  background: var(--monkeyA1);
+  color: rgb(255, 255, 255);
+}
+
+.cardInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 350px;
+  flex-wrap: wrap;
+  white-space: normal;
+  gap: 1em;
+  padding-left: 1.5em;
+}
+.cardImg{
+  border-radius: 0.5em;
+}
+.icard{
+  display: flex;
+  padding: 1em;
+  margin: 1em;
+  background-color: white;
+  justify-content: center;
+  flex-direction: row;
+
+  border: 2px dashed var(--monkey1);
+  border-radius: 0.5em;
+  transition:all .2s ease-in-out;
+
+}
+.icard:hover{
+  border: solid var(--monkey1);
+  border-bottom: 10px solid var(--monkey1);
 }
