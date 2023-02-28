@@ -37,7 +37,7 @@ export default function Home() {
           <span className={styles.hText}>
             <h1 className='regHead'>Hi, I&apos;m Angelyne Tran!</h1>
             <br/>
-            <p className={styles.pCont}>I'm a creative, curious and empathetic 
+            <p className={styles.pCont}>I&apos;m a creative, curious and empathetic 
               UI/UX designer based in Vancouver. I find 
               joy in utilizing my design skills to create
               an intuitive and accessible experience.
