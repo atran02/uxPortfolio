@@ -51,14 +51,25 @@ export default function Home() {
               <hr/>
             </div>
             <CardItem imgCard={'/assetImages/ltm_1.png'}
+              link={'http://angelynetran.com/portfolio/localtome/'}
               hText={"LocalToMe"}
               pType={"UI/UX Design"}
-              text={"potatos depression meiw fhhfjhgkj jfshfjksh fksahhcna d hoa akjh fhajkf akh hire me pls"}
+              text={"LocalToMe is a web app that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets."}
+              btnText={"View Case Study"}
             />
-            <CardItem imgCard={'/assetImages/ltm_1.png'}
-              hText={"LocalToMe"}
+            <CardItem imgCard={'/assetImages/ap_1.png'}
+              link={'http://angelynetran.com/portfolio/aquapal/'}
+              hText={"Aqua Pal"}
               pType={"UI/UX Design"}
-              text={"potatos depression meiw fhhfjhgkj jfshfjksh fksahhcna d hoa akjh fhajkf akh hire me pls"}
+              text={"AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet."}
+              btnText={"View Project"}
+            />
+            <CardItem imgCard={'/assetImages/ttm_1.png'}
+              link={'http://angelynetran.com/portfolio/teoktome/'}
+              hText={"Teok To Me"}
+              pType={"UI/UX Design"}
+              text={"Teok To Me is a mental app which helps people release stress and monitor their mental health. The main purpose of the app is for users to practice breathing exercises for relaxation."}
+              btnText={"View Case Study"}
             />
           </div>
 

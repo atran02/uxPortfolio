@@ -163,7 +163,7 @@
   max-width: 350px;
   flex-wrap: wrap;
   white-space: normal;
-  gap: 1em;
+  gap: 0.5em;
   padding-left: 1.5em;
 }
 .cardImg{
@@ -180,9 +180,21 @@
   border: 2px dashed var(--monkey1);
   border-radius: 0.5em;
   transition:all .2s ease-in-out;
-
+  cursor: pointer;
 }
 .icard:hover{
   border: solid var(--monkey1);
   border-bottom: 10px solid var(--monkey1);
+}
+.popIcon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: auto;
+  transition:all .2s ease-in-out;
+}
+.popIcon:hover{
+  background-color: var(--monkeyA2);
 }

@@ -1,10 +1,18 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Button from './button'
+import { Poppins } from '@next/font/google'
+
+const poppins = Poppins({ 
+    subsets: ['latin'],
+    weight: [ '100', '200', '300', '400', '500', '600', '700', '800', '900']
+  })
+  
 
 export default function NavBar()
 {
     return <>
+    <div className={poppins.className}>
         <div className={styles.nav}>
             <a href='/'>          
                 <img src='/images/a_monkeylogo.png' width={56} height={56}/>
@@ -20,6 +28,7 @@ export default function NavBar()
                 </div>
                 <Button text={"Resume"} link={"http://angelynetran.com/wp-content/uploads/2023/02/angelyneTran_resume.pdf"}/>
             </div>
+        </div>
         </div>
     </>
 }
