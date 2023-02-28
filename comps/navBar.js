@@ -15,7 +15,7 @@ export default function NavBar()
     <div className={poppins.className}>
         <div className={styles.nav}>
             <a href='/'>          
-                <img src='/images/a_monkeylogo.png' alt={"monkey banana image"} width={56} height={56}/>
+                <img src='/images/a_monkeyLogo.png' alt={"monkey banana image"} width={56} height={56}/>
             </a> 
             <div className={styles.navAlign}>
                 <div className={styles.navItem1}>

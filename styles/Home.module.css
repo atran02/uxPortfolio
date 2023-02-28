@@ -50,7 +50,7 @@
   background-color: var(--monkeyL);
 }
 .bgM{
-  background-image: url(/images/cloudbg.svg);
+  background-image: url(/images/cloudBg.svg);
   background-color: var(--monkey3);
   background-size: cover;
   /* background-size: 100vw; */
