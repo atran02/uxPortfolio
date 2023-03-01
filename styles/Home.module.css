@@ -195,6 +195,6 @@
   margin-top: auto;
   transition:all .2s ease-in-out;
 }
-.icard:hover > .popIcon{
+.icard:hover .popIcon{
   background-color: var(--monkeyA2);
 }
