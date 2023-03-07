@@ -26,7 +26,7 @@ export default function SideNav()
             {menu && <div className={styles.oMenu} onMouseLeave={()=>{menuOpen(false)}}>
                 <ul>
                     <li><Link href='/'>Home</Link></li>
-                    <li><Link href='http://angelynetran.com/portfolio/'>Project</Link></li>
+                    <li><Link href='http://angelynetran.com/portfolio/'>Projects</Link></li>
                     <li><Link href='/'>About</Link></li>
                 </ul>
 
