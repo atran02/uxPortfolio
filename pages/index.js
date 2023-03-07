@@ -6,6 +6,8 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/comps/navBar'
 import Footer from '@/comps/footer'
 import CardItem from '@/comps/btnCard'
+import SideNav from '@/comps/sideNav'
+import Divider from '@/comps/divider'
 
 const poppins = Poppins({ 
   subsets: ['latin'],
@@ -24,6 +26,8 @@ export default function Home() {
 
       <NavBar/>
 
+      <SideNav/>
+
       <main className={poppins.className}>
         <div className={styles.bgLight}>
 
@@ -32,7 +36,7 @@ export default function Home() {
 
           {/* <Image src={'/images/c1.svg'} width={250} height={250}/> */}
 
-          <Image src={'/images/a_ded.png'} alt={"angelyne custom illustration"} width={250} height={250}/>
+          <Image id='aCloud' src={'/images/a_cloud.gif'} alt={"angelyne custom illustration on a cloud"} width={400} height={400}/>
 
           <span className={styles.hText}>
             <h1 className='regHead'>Hi, I&apos;m Angelyne Tran!</h1>
@@ -46,10 +50,8 @@ export default function Home() {
          </div>
 
           <div className={styles.itemCont}>
-            <div id='divider'>
-              <h1>UI/UX Projects</h1>
-              <hr/>
-            </div>
+            <Divider hText={'UI/UX Projects'}/>
+
             <CardItem imgCard={'/assetImages/ltm_1.png'}
               link={'http://angelynetran.com/portfolio/localtome/'}
               hText={"LocalToMe"}
@@ -57,14 +59,14 @@ export default function Home() {
               text={"LocalToMe is a web app that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets."}
               btnText={"View Case Study"}
             />
-            <CardItem imgCard={'/assetImages/ap_1.png'}
+            <CardItem imgCard={'/assetImages/apprev.png'}
               link={'http://angelynetran.com/portfolio/aquapal/'}
               hText={"Aqua Pal"}
               pType={"UI/UX Design"}
               text={"AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet."}
               btnText={"View Project"}
             />
-            <CardItem imgCard={'/assetImages/ttm_1.png'}
+            <CardItem imgCard={'/assetImages/teokprev.png'}
               link={'http://angelynetran.com/portfolio/teoktome/'}
               hText={"Teok To Me"}
               pType={"UI/UX Design"}
@@ -72,6 +74,8 @@ export default function Home() {
               btnText={"View Case Study"}
             />
           </div>
+
+          <Divider hText={'Contact'}/>
 
         </div>
       </main>

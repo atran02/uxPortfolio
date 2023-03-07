@@ -84,7 +84,7 @@
   align-items: center;
   justify-content: flex-start;
 
-  padding: 5em;
+  padding: 3em;
   text-align: center;
 }
 
@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1em;
+  margin: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -128,7 +128,8 @@
 }
 .navItem1 a:hover{
   color: var(--monkeyA1);
-  border-bottom: 3px solid var(--monkeyA1);
+  /* border-bottom: 3px solid var(--monkeyA1); */
+  text-decoration: underline;
   transition:all .1s ease-in-out;
 }
 .navAlign{
@@ -197,4 +198,39 @@
 }
 .icard:hover .popIcon{
   background-color: var(--monkeyA2);
+}
+.popIcon:hover{
+  background-color: var(--monkeyA2);
+}
+
+.sNav{
+  position: fixed;
+  cursor: pointer;
+  margin: 1.5em;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oMenu{
+  min-width: 6em;
+  min-height: 10em;
+  padding: 1em;
+  background-color: var(--monkeyL);
+  border-radius: 1em;
+  border: dashed var(--monkey2);
+  border-width: 2px;
+  cursor: auto;
+  position: inherit;
+  padding-top: 8em;
+  z-index: -1;
+}
+.oMenu ul li{
+  list-style: none;
+  margin-bottom: 1em;
+}
+.oMenu ul li:hover{
+  background-color: var(--monkeyA2);
+  transition:all .2s ease-in 0s;
 }

@@ -1,9 +1,10 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function CardItem({text,link,hText,pType,imgCard,btnText})
 {
-    return <a href={link}
+    return <Link href={link}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -20,6 +21,6 @@ export default function CardItem({text,link,hText,pType,imgCard,btnText})
                 </div>
                 
             </div>
-        </a>
+        </Link>
         
 }

@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import { Poppins } from '@next/font/google'
+import Link from 'next/link'
 
 const poppins = Poppins({ 
     subsets: ['latin'],
@@ -13,14 +14,14 @@ export default function Footer()
     return <>
      <div className={poppins.className}>
         <div className={styles.footer}>
-        <a
+        <Link
             href="https://github.com/atran02/"
             target="_blank"
             rel="noopener noreferrer"
           >
           {/* © */}
           <p>Angelyne Tran © 2023</p>
-          </a>
+          </Link>
         </div>
         </div>
     </>
