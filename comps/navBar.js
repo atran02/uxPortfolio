@@ -24,7 +24,7 @@ export default function NavBar()
                     >Home</Link>
                     <Link href='http://angelynetran.com/portfolio/'
                     >Projects</Link>
-                    <Link href='/'
+                    <Link href='/about'
                     >About</Link>
                 </div>
                 <Button text={"Resume"} link={"http://angelynetran.com/wp-content/uploads/2023/02/angelyneTran_resume.pdf"}/>

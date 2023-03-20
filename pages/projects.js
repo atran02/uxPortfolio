@@ -14,7 +14,7 @@ const poppins = Poppins({
   weight: [ '100', '200', '300', '400', '500', '600', '700', '800', '900']
 })
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
@@ -75,7 +75,7 @@ export default function Home() {
             />
           </div>
 
-          {/* <Divider hText={'Contact'}/> */}
+          <Divider hText={'Contact'}/>
 
         </div>
       </main>
