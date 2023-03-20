@@ -59,12 +59,12 @@ export default function Home() {
               text={"LocalToMe is a web app that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets."}
               btnText={"View Case Study"}
             />
-            <CardItem imgCard={'/assetImages/apprev.png'}
-              link={'http://angelynetran.com/portfolio/aquapal/'}
-              hText={"Aqua Pal"}
+            <CardItem imgCard={'/assetImages/sezi_mock3.png'}
+              link={'http://angelynetran.com/sezi/'}
+              hText={"Sezi"}
               pType={"UI/UX Design"}
-              text={"AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet."}
-              btnText={"View Project"}
+              text={"Sezi is a high-end, upscaled hair studio website which makes use of a vibrant colour theme and gives off a funky refreshing feel."}
+              btnText={"View Case Study"}
             />
             <CardItem imgCard={'/assetImages/teokprev.png'}
               link={'http://angelynetran.com/portfolio/teoktome/'}
@@ -73,10 +73,19 @@ export default function Home() {
               text={"Teok To Me is a mental app which helps people release stress and monitor their mental health. The main purpose of the app is for users to practice breathing exercises for relaxation."}
               btnText={"View Case Study"}
             />
+          
           </div>
 
-          {/* <Divider hText={'Contact'}/> */}
-
+          <div className={styles.itemCont}>
+            <Divider hText={'Other Projects'}/>
+            <CardItem imgCard={'/assetImages/apprev.png'}
+              link={'http://angelynetran.com/portfolio/aquapal/'}
+              hText={"Aqua Pal"}
+              pType={"UI Design"}
+              text={"AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet."}
+              btnText={"View Project"}
+            />
+          </div>
         </div>
       </main>
       <Footer/>
